@@ -1,0 +1,13 @@
+- name: Build Docker Image
+  hosts: dockerservers
+  gather_facts: false
+  remote_user: root
+  tasks:
+    - name: Building Docker Image
+      docker_image:
+        name: 66022523-next-js:latest
+        source: build
+        build:
+          path: ~/66022523-next-js
+        state: present
+        force_source: true
