@@ -16,11 +16,18 @@ export default function Home() {
           <li className="mb-2">
             Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              66022523
+              app/page.tsx
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li className="mb-2">Save and see your changes instantly.</li>
+          <li>
+            CI/CD via Jenkins at{" "}
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              66022523-next-js
+            </code>
+            .
+          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
