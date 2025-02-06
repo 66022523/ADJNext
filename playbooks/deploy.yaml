@@ -8,6 +8,6 @@
         name: 66022523-next-js-container #docker container name
         image: 66022523-next-js:latest #docker image name
         ports:
-          - "2523:80" #เลข port ตัวแรกคือเลข  port ที่รับมาจาก browser ตัวหลังคือ  port ของ docker (คงไว้ที่ 80 ถ้าเป็น nextjs project ก็ 3000)
+          - "2523:3000" #เลข port ตัวแรกคือเลข  port ที่รับมาจาก browser ตัวหลังคือ  port ของ docker (คงไว้ที่ 80 ถ้าเป็น nextjs project ก็ 3000)
         state: started
         restart: true
