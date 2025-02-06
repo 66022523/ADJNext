@@ -21,10 +21,26 @@ export default function Home() {
             .
           </li>
           <li className="mb-2">Save and see your changes instantly.</li>
-          <li>
+          <li className="mb-2">
             CI/CD via Jenkins at{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               66022523-next-js
+            </code>
+            .
+          </li>
+          <li>
+            This is deployment of{" "}
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              66022523
+            </code>
+            ,<br />
+            develop by{" "}
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              66022523
+            </code>{" "}
+            and build by{" "}
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              66022523
             </code>
             .
           </li>
